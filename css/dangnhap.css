@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #eff0f5;
+}
+.body{
+    background-color: white;
+
+}
+
+#form {
+    background-color: white;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+    width:  700px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+#form h2 {
+    color: #333;
+}
+
+#form table {
+        width: 50%;
+        border-spacing: 0; /* Set the sp
+}
+
+#form td {
+    padding: 5px 0; /* Adjust the top and bottom padding */
+    text-align: left;
+}
+
+#form input {
+    display: grid;
+    width: 300px;
+    height: 55px;
+    margin-bottom: 10px;
+}
+#showpass {
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+
+#dangnhap {
+    /* Thiết lập các thuộc tính của nút "Login" */
+    position: absolute;
+    top: 440px; /* Điều chỉnh khoảng cách từ trên xuống */
+    left: 65%; /* Di chuyển nút vào giữa trang ngang */
+    transform: translateX(-50%); /* Dịch chuyển nút theo chiều ngang để nằm giữa */
+    width: 250px;
+    height: 65px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 23px;
+    padding: 10px 15px;
+}
+
