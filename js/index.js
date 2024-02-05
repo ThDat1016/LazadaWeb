@@ -8,7 +8,6 @@ const images = document.querySelectorAll('.slideshow-image');
     }
 
     setInterval(showNextImage, 3000);
-    // JavaScript để tạo sản phẩm và chuyển hướng đến trang chi tiết
     document.addEventListener('DOMContentLoaded', function () {
     var nameProducts = ["Máy hút bụi giường nệm diệt khuẩn đa năng ", "Quần jean nam", "Băng cao su non", "Thức ăn cho mèo","Bóng đèn led","Bông tẩy trang 240 miếng","KING COFFE 3IN1","Quần short nam thể thao","Đầm body nữ dáng xòe nhẹ xinh xắn","Sữa Dưỡng Thể Trắng Da Vaseline","Miếng Lót Chuột Delux","Đèn năng lượng mặt trời","Combo 2 chai dầu gội đầu","Combo 10 gói Pate cho mèo","Thanh xốp tránh va đập",
                             "Trà dạ dạy đại tràng","Bộ vòi hoa sen tăng áp","10 tấm xốp dán tường","Đèn trụ nhôm công suất 50w - 100w","Combo 2 túi cà phê đen đá","ÁO KHOÁC HOODIE NAM NỮ","Bếp gas du lịch mini","Sữa tăm THEBOL","Đèn xe đạp thể thao siêu sáng",
@@ -22,7 +21,7 @@ const images = document.querySelectorAll('.slideshow-image');
     var productsCreated = 0;
 
 
-    for (var i = productsCreated; i < productsCreated + limit && i < 48; i++) { // Số sản phẩm trong mảng nameProducts
+    for (var i = productsCreated; i < productsCreated + limit && i < 48; i++) { 
 
         var li = document.createElement('li');
 
@@ -36,7 +35,7 @@ const images = document.querySelectorAll('.slideshow-image');
 
         var h3 = document.createElement('h3');
         h3.textContent = nameProducts[i];
-        h3.className = 'product-name'; // Thêm class 'product-name' cho phần tử h3 // Sử dụng nameProducts[i] để lấy tên sản phẩm
+        h3.className = 'product-name'; 
 
         var price = document.createElement('p');
         price.textContent = 'Giá: $' + Math.floor(Math.random() * 150) + 50;
